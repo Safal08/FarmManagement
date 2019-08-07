@@ -8,6 +8,7 @@
 
     <Button
         android:id="@+id/fbt"
+        android:drawableLeft="@drawable/farmer"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:text="Farmer"
@@ -21,8 +22,10 @@
         android:layout_marginTop="30dp"
         android:layout_below="@+id/fbt"
         android:id="@+id/cbt"
+        android:drawableLeft="@drawable/customer"
         android:layout_width="300dp"
         android:layout_height="60dp"
+        android:drawableBottom="10dp"
         android:text="Costumer"
         android:textColor="#edf4fa"
         android:background="@drawable/button_round"

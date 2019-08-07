@@ -18,6 +18,7 @@
         android:hint="Username"
         android:drawablePadding="10dp"
         android:inputType="text"
+        android:textColorHint="#04327d"
         android:layout_marginTop="250dp"
         android:layout_marginLeft="40dp"
         />
@@ -29,6 +30,7 @@
         android:layout_height="60dp"
         android:drawableLeft="@drawable/password"
         android:paddingLeft="10dp"
+        android:textColorHint="#04327d"
         android:drawablePadding="10dp"
         android:hint="Password"
         android:inputType="textPassword"
