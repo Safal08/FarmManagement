@@ -5,13 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".farmer"
-    android:background="#524a78"
+    android:background="@drawable/farmer_login"
     >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"/>
 
     <EditText
         android:id="@+id/fet1"
@@ -19,7 +14,7 @@
         android:layout_height="60dp"
         android:hint="Username"
         android:inputType="text"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="250dp"
         android:layout_marginLeft="40dp"
         />
     <EditText
@@ -27,7 +22,7 @@
         android:layout_below="@+id/fet1"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:hint="Username"
+        android:hint="Password"
         android:inputType="textPassword"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="30dp"
