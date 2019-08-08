@@ -19,7 +19,8 @@
         <activity android:name=".Choose" />
         <activity android:name=".farmer" />
         <activity android:name=".customer" />
-        <activity android:name=".farmer_register"></activity>
+        <activity android:name=".farmer_register" />
+        <activity android:name=".customer_register"></activity>
     </application>
 
 </manifest>
