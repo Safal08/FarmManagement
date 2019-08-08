@@ -49,6 +49,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="login"
+        android:textSize="10dp"
         android:background="@drawable/button_round"
         android:textAllCaps="true"
         />
@@ -64,6 +65,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Register"
+        android:textSize="10dp"
         android:textAllCaps="true"
         />
 
