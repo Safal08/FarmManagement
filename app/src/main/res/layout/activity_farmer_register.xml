@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farmer_register"
+    tools:context=".farmer_register">
+
+    <TextView
+        android:id="@+id/tv_fr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:id="@+id/f_name"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/tv_fr"
+        android:hint="Username"
+        android:textColorHint="#04327d"
+        android:padding="10dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/f_password"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/f_name"
+        android:hint="Password"
+        android:textColorHint="#04327d"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/f_contact"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/f_password"
+        android:hint="Contact"
+        android:textColorHint="#04327d"
+        android:padding="10dp"
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/f_address"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_round"
+        android:layout_below="@+id/f_contact"
+        android:hint="Address"
+        android:textColorHint="#04327d"
+        android:padding="10dp"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/customer_login_btn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/f_address"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round"
+        android:drawablePadding="2dp"
+        android:padding="10dp"
+        android:text="Register"
+        android:textAllCaps="true"
+        android:textSize="20dp" />
+
+</RelativeLayout>

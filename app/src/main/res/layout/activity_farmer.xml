@@ -54,6 +54,7 @@
         android:textAllCaps="true"
         />
     <Button
+        android:id="@+id/farmer_reg_btn"
         android:layout_below="@+id/farmer_login_btn"
         android:layout_width="120dp"
         android:drawablePadding="2dp"
